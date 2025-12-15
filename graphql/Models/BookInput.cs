@@ -1,7 +1,6 @@
 namespace graphql.Models;
 
-public record Book
-(   
+public record BookInput(
     int Id,
     string Title,
     int Pages
